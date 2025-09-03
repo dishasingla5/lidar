@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/pi/lidar/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/pi/lidar/install/my_bot
+Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/pi/lidar/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/pi/lidar/install/my_bot
+Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/my_bot -- -j4 -l4
+Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/my_bot -- -j4 -l4
+Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/my_bot
+Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/my_bot

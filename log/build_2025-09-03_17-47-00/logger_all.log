@@ -1,0 +1,490 @@
+[0.734s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.734s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffac7064d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac8a7460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac8a7460>>, mixin_verb=('build',))
+[2.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/lidar'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extensions ['ignore', 'ignore_ament_install']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'ignore'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'ignore_ament_install'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extensions ['colcon_pkg']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'colcon_pkg'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extensions ['colcon_meta']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'colcon_meta'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extensions ['ros']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'ros'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extensions ['cmake', 'python']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'cmake'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'python'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extensions ['python_setup_py']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_code) by extension 'python_setup_py'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[2.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[2.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[2.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[2.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[2.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[2.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[2.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/pi/lidar/install
+[2.586s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[2.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[2.824s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[2.825s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.825s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.825s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/lidar/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/lidar/install/my_bot', 'merge_install': False, 'path': '/home/pi/lidar/src/my_bot', 'symlink_install': False, 'test_result_base': None}
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.828s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/lidar/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/lidar/install/serial', 'merge_install': False, 'path': '/home/pi/lidar/src/serial', 'symlink_install': False, 'test_result_base': None}
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.830s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/lidar/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/lidar/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.833s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/lidar/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/lidar/install/sllidar_ros2', 'merge_install': False, 'path': '/home/pi/lidar/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.836s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/lidar/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/lidar/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/pi/lidar/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.838s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/lidar/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/lidar/install/serial_motor_demo', 'merge_install': False, 'path': '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[2.839s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.842s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.844s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/lidar/src/serial' with build type 'ament_cmake'
+[2.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/lidar/src/serial'
+[2.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.894s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[2.894s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo_msgs'
+[2.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.922s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/lidar/src/my_bot' with build type 'ament_cmake'
+[2.922s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/lidar/src/my_bot'
+[2.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.950s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/lidar/src/sllidar_ros2' with build type 'ament_cmake'
+[2.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/lidar/src/sllidar_ros2'
+[2.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial -- -j4 -l4
+[3.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial_motor_demo_msgs -- -j4 -l4
+[3.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/my_bot -- -j4 -l4
+[3.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/sllidar_ros2 -- -j4 -l4
+[3.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/my_bot -- -j4 -l4
+[3.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/my_bot
+[3.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[3.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/my_bot
+[4.233s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot' for CMake module files
+[4.237s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot' for CMake config files
+[4.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/bin'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.353s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/lib/python3.10/site-packages'
+[4.360s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/bin'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.ps1'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/my_bot/share/my_bot/package.dsv'
+[4.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.sh'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.bash'
+[4.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.zsh'
+[4.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/my_bot/share/colcon-core/packages/my_bot)
+[4.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot' for CMake module files
+[4.424s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot' for CMake config files
+[4.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.437s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/bin'
+[4.437s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.439s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/lib/python3.10/site-packages'
+[4.440s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/my_bot/bin'
+[4.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.ps1'
+[4.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/my_bot/share/my_bot/package.dsv'
+[4.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.sh'
+[4.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.bash'
+[4.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/my_bot/share/my_bot/package.zsh'
+[4.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/my_bot/share/colcon-core/packages/my_bot)
+[4.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/sllidar_ros2 -- -j4 -l4
+[4.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/sllidar_ros2
+[4.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial -- -j4 -l4
+[4.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial
+[4.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[4.638s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2' for CMake module files
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2' for CMake config files
+[4.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[4.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[4.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/lib'
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/bin'
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[4.680s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/lib/python3.10/site-packages'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/bin'
+[4.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/sllidar_ros2
+[4.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[4.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2' for CMake module files
+[4.721s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2' for CMake config files
+[4.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[4.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[4.737s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/lib'
+[4.738s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/bin'
+[4.738s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/lib/python3.10/site-packages'
+[4.741s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/sllidar_ros2/bin'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[4.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial
+[4.765s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial' for CMake module files
+[4.769s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial' for CMake config files
+[4.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/lib'
+[4.784s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/bin'
+[4.784s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/lib/pkgconfig/serial.pc'
+[4.786s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/lib/python3.10/site-packages'
+[4.787s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/bin'
+[4.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.ps1'
+[4.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/serial/share/serial/package.dsv'
+[4.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.sh'
+[4.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.bash'
+[4.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.zsh'
+[4.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/serial/share/colcon-core/packages/serial)
+[4.807s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[4.808s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial' for CMake module files
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial' for CMake config files
+[4.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[4.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/lib'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/bin'
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/lib/pkgconfig/serial.pc'
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/lib/python3.10/site-packages'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial/bin'
+[4.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.ps1'
+[4.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/serial/share/serial/package.dsv'
+[4.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.sh'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.bash'
+[4.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial/share/serial/package.zsh'
+[4.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/serial/share/colcon-core/packages/serial)
+[4.847s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/lidar/src/diffdrive_arduino' with build type 'ament_cmake'
+[4.848s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/lidar/src/diffdrive_arduino'
+[4.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/diffdrive_arduino -- -j4 -l4
+[5.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/diffdrive_arduino -- -j4 -l4
+[5.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/diffdrive_arduino
+[5.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino' for CMake module files
+[5.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/diffdrive_arduino
+[5.528s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino' for CMake config files
+[5.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[5.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[5.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[5.540s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/lib'
+[5.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[5.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[5.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[5.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/bin'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/lib/python3.10/site-packages'
+[5.551s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/bin'
+[5.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[5.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[5.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[5.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[5.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[5.569s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino' for CMake module files
+[5.572s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino' for CMake config files
+[5.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[5.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[5.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/lib'
+[5.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[5.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[5.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[5.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[5.592s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/bin'
+[5.593s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/lib/python3.10/site-packages'
+[5.595s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/diffdrive_arduino/bin'
+[5.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[5.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[5.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[5.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[6.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial_motor_demo_msgs -- -j4 -l4
+[6.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial_motor_demo_msgs
+[6.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs' for CMake module files
+[6.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial_motor_demo_msgs
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs' for CMake config files
+[6.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[6.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[6.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[6.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[6.695s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/lib'
+[6.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[6.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[6.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[6.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[6.703s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/bin'
+[6.703s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[6.704s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[6.705s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/bin'
+[6.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[6.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[6.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[6.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[6.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[6.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[6.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[6.721s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs' for CMake module files
+[6.725s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs' for CMake config files
+[6.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[6.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[6.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[6.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[6.738s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/lib'
+[6.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[6.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[6.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[6.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[6.745s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/bin'
+[6.746s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[6.746s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[6.747s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo_msgs/bin'
+[6.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[6.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[6.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[6.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[6.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[6.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[6.762s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[6.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[6.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[6.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[6.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[6.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo'
+[8.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot PYTHONPATH=/home/pi/lidar/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/pi/lidar/build/serial_motor_demo/build install --record /home/pi/lidar/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[11.808s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo' for CMake module files
+[11.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot PYTHONPATH=/home/pi/lidar/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/pi/lidar/build/serial_motor_demo/build install --record /home/pi/lidar/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[11.811s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo' for CMake config files
+[11.816s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo/lib'
+[11.817s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo/bin'
+[11.818s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[11.819s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages'
+[11.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[11.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[11.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[11.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[11.829s] Level 1:colcon.colcon_core.environment:checking '/home/pi/lidar/install/serial_motor_demo/bin'
+[11.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[11.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[11.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[11.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[11.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[11.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[11.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/lidar/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[11.843s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.845s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.878s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.884s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.884s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/lidar/install/local_setup.ps1'
+[11.891s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/lidar/install/_local_setup_util_ps1.py'
+[11.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/lidar/install/setup.ps1'
+[11.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/lidar/install/local_setup.sh'
+[11.912s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/lidar/install/_local_setup_util_sh.py'
+[11.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/lidar/install/setup.sh'
+[11.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/lidar/install/local_setup.bash'
+[11.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/lidar/install/setup.bash'
+[11.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/lidar/install/local_setup.zsh'
+[11.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/lidar/install/setup.zsh'

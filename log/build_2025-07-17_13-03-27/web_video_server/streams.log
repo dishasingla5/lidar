@@ -1,0 +1,6 @@
+[0.069s] Invoking command in '/home/pi/lidar/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/web_video_server -- -j4 -l4
+[0.467s] [35m[1mConsolidate compiler generated dependencies of target web_video_server[0m
+[1.271s] [  7%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o[0m
+[37.672s] [ 14%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o[0m
+[37.869s] [ 21%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o[0m
+[39.005s] [ 28%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o[0m

@@ -1,0 +1,42 @@
+[0.089s] Invoking command in '/home/pi/lidar/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/diffdrive_arduino -- -j4 -l4
+[0.585s] [ 14%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[0.606s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[41.354s] [ 42%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[41.359s] [ 57%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[43.736s] [ 71%] Built target fake_robot
+[43.742s] [100%] Built target diffdrive_arduino
+[43.841s] Invoked command in '/home/pi/lidar/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/diffdrive_arduino -- -j4 -l4
+[43.869s] Invoking command in '/home/pi/lidar/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/diffdrive_arduino
+[43.912s] -- Install configuration: ""
+[43.921s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[43.922s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[43.935s] -- Installing: /home/pi/lidar/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[43.948s] -- Set runtime path of "/home/pi/lidar/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[43.954s] -- Installing: /home/pi/lidar/install/diffdrive_arduino/lib/libfake_robot.so
+[43.967s] -- Set runtime path of "/home/pi/lidar/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[43.971s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[43.975s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[43.976s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino
+[43.977s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[43.978s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[43.991s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[43.994s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[44.000s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[44.002s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[44.005s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[44.007s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[44.008s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[44.009s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[44.010s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[44.010s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[44.011s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[44.011s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[44.012s] -- Installing: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[44.016s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[44.018s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[44.020s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[44.021s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.023s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[44.023s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[44.024s] -- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[44.035s] Invoked command in '/home/pi/lidar/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/diffdrive_arduino

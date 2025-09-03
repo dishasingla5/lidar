@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:property name="c1"       value="0.227"/>
+<xacro:property name="c2"       value="0.5"/>
+<xacro:property name="mass"     value="0.5"/>
+<xacro:property name="width"    value="0.16"/>
+<xacro:property name="height"   value="0.047"/>
+<xacro:property name="depth"    value="0.03 "/>
+<xacro:property name="radius"   value="0.04 "/>
+    <!-- COLORS -->
+    <material name="yellow">
+        <color rgba=" 1 1 0 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="Blue">
+        <color rgba=" 0.2 0.2 1 1"/>
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.3 0.1 1"/>
+    </material>
+    <!-- <base link> -->
+    <link name="base_footprint">
+
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="-0.01 0 0" />
+    </joint>
+
+    <link name="base_link">
+    
+        <visual>
+            <origin xyz="0 0 0.03" />
+            <geometry>
+                <box size ="0.227 0.16 0.047" />
+            </geometry>
+            <material name="yellow" />
+            
+        </visual>
+         <collision>
+            <origin xyz="0 0 0.03" />
+            <geometry>
+                <box size ="0.227 0.16 0.047" />
+            </geometry>
+        </collision>
+        <inertial mass="0.5" x="0.227" y="0.16" z="0.047">
+            <mass value="0.5"/>
+            <origin xyz="0 0 0.03" rpy="0 0 0" />
+            <inertia  ixx="${c1 * mass * (height * height + depth * depth)}" ixy="0.0" ixz="0.0" 
+                iyy="${c1 * mass * (height * height + depth * depth)}" iyz="0.0" 
+                izz="${c1 * mass * (height * height + depth * depth)}"/>
+        </inertial>
+    </link>
+    <gazebo reference="base_link">
+        <material>Gazebo/yellow</material>
+    </gazebo>
+
+    <!-- <wheel_front_left_joint> -->
+
+    <joint name="wheel_front_left_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_front_left_link" />
+        <origin xyz="0.1135 0.095 0" rpy="-${pi/2} 0 0" />
+        <axis xyz ="0 0 1" />
+    </joint>
+
+    <link name="wheel_front_left_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.04" length="0.03"/>
+                 
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.04" length="0.03"/>
+            </geometry>
+        </collision>
+        <inertial mass="0.1" length="0.03" radius="0.04">
+            <mass value="0.1"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia  ixx="${c1 * mass * (height * height + depth * depth)}" ixy="0.0" ixz="0.0" 
+                iyy="${c1 * mass * (height * height + depth * depth)}" iyz="0.0" 
+                izz="${c1 * mass * (height * height + depth * depth)}"/>
+    
+        </inertial>
+    </link>
+    <gazebo reference="wheel_front_left_link">
+        <material>Gazebo/black</material>
+    </gazebo>
+
+    <!-- <wheel_front_right_joint> -->
+
+    <joint name="wheel_front_right_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_front_right_link" />
+        <origin xyz="0.1135 -0.095 0" rpy="${pi/2} 0 0" />
+        <axis xyz ="0 0 -1" />
+    </joint>
+    <link name="wheel_front_right_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.04" length="0.03" />
+                 
+            </geometry>
+            <material name="black" />
+        </visual>
+         <collision>
+            <geometry>
+                <cylinder radius="0.04" length="0.03" /> 
+            </geometry>
+        </collision>
+        <inertial mass="0.1" length="0.03" radius="0.04">
+            <mass value="0.1"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia  ixx="${c1 * mass * (height * height + depth * depth)}" ixy="0.0" ixz="0.0" 
+                iyy="${c1 * mass * (height * height + depth * depth)}" iyz="0.0" 
+                izz="${c1 * mass * (height * height + depth * depth)}"/>
+    
+        </inertial>
+    </link>
+    <gazebo reference="wheel_front_right_link">
+        <material>Gazebo/black</material>
+    </gazebo>
+
+    <!-- <wheel_rear_left_joint> -->
+
+    <joint name="wheel_rear_left_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_rear_left_link" />
+        <origin xyz="-0.1135 0.095 0" rpy="-${pi/2} 0 0" />
+        <axis xyz ="0 0 1" />
+    </joint>
+    <link name="wheel_rear_left_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.04" length="0.03"/>
+                 
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.04" length="0.03"/>
+                <material name="black" /> 
+            </geometry>
+        </collision>
+        <inertial mass="0.1" length="0.03" radius="0.04">
+            <mass value="0.1"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia  ixx="${c1 * mass * (height * height + depth * depth)}" ixy="0.0" ixz="0.0" 
+                iyy="${c1 * mass * (height * height + depth * depth)}" iyz="0.0" 
+                izz="${c1 * mass * (height * height + depth * depth)}"/>
+    
+        </inertial>
+    </link>
+    <gazebo reference="wheel_rear_left_link">
+        <material>Gazebo/black</material>
+    </gazebo>
+
+    <!-- <wheel_rear_right_joint> -->
+
+    <joint name="wheel_rear_right_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_rear_right_link" />
+        <origin xyz="-0.1135 -0.095 0" rpy="${pi/2} 0 0" />
+        <axis xyz ="0 0 -1" />
+    </joint>
+    <link name="wheel_rear_right_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.04" length="0.03"/>
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.04" length="0.03"/>
+            </geometry>
+        </collision>
+        <inertial mass="0.1" length="0.03" radius="0.04">
+            <mass value="0.1"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia  ixx="${c1 * mass * (height * height + depth * depth)}" ixy="0.0" ixz="0.0" 
+                iyy="${c1 * mass * (height * height + depth * depth)}" iyz="0.0" 
+                izz="${c1 * mass * (height * height + depth * depth)}"/>
+    
+        </inertial>
+    </link>
+    <gazebo reference="wheel_rear_right_link">
+        <material>Gazebo/black</material>
+    </gazebo>
+
+    
+</robot>

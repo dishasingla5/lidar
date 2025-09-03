@@ -1,0 +1,184 @@
+[0.332s] Invoking command in '/home/pi/lidar/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial_motor_demo_msgs -- -j4 -l4
+[2.136s] [  2%] Built target serial_motor_demo_msgs__cpp
+[2.625s] [  2%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[3.037s] [ 12%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[3.492s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[13.351s] running egg_info
+[13.364s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[13.365s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[13.365s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[13.542s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[13.548s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[13.958s] [ 23%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[14.783s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[15.275s] [ 44%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[16.072s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[16.426s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[16.627s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[16.794s] [ 76%] Built target serial_motor_demo_msgs
+[17.134s] [ 78%] Built target serial_motor_demo_msgs__py
+[17.414s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[17.786s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.339s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[18.545s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[18.710s] Invoked command in '/home/pi/lidar/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial_motor_demo_msgs -- -j4 -l4
+[18.743s] Invoking command in '/home/pi/lidar/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial_motor_demo_msgs
+[18.816s] -- Install configuration: ""
+[18.860s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[18.864s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[18.866s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[18.869s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[18.871s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[18.872s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.873s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[18.885s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[18.886s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c
+[18.886s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[18.887s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[18.895s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.c
+[18.909s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[18.910s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[18.911s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[18.911s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[18.912s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[18.913s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[18.919s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c
+[18.924s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[18.930s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[18.935s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[18.952s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[18.954s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[18.955s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[18.955s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[18.956s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[18.957s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[18.958s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[18.958s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.975s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[18.978s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[18.979s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[18.980s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[18.981s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c
+[18.981s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[18.983s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[18.984s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c
+[18.990s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c
+[18.991s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[18.992s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.992s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[19.024s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[19.051s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[19.052s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[19.053s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.053s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[19.054s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[19.054s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[19.054s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[19.056s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[19.057s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[19.058s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[19.058s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[19.059s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[19.059s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[19.059s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[19.060s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[19.060s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[19.060s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[19.061s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[19.061s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[19.067s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[19.079s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[19.091s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.092s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[19.104s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[19.107s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[19.108s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[19.112s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/dds_fastrtps
+[19.131s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.140s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[19.142s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[19.144s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[19.157s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[19.158s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp
+[19.159s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[19.160s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp
+[19.161s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp
+[19.164s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[19.185s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[19.200s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[19.202s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[19.203s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[19.231s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info
+[19.235s] -- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[19.240s] -- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[19.247s] -- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[19.253s] -- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[19.260s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs
+[19.268s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[19.269s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg
+[19.275s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[19.277s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[19.281s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[19.293s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[19.296s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[19.298s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[19.311s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[19.323s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.324s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.328s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.333s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.334s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[19.335s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.340s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[20.026s] Listing '/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[20.028s] Listing '/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[20.095s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.108s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.116s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.131s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[20.137s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[20.139s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[20.141s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[20.141s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[20.142s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[20.151s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[20.152s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[20.154s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[20.159s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[20.163s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[20.166s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[20.174s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[20.175s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[20.181s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[20.182s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[20.188s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[20.191s] -- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[20.197s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[20.198s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[20.203s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.206s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.207s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.211s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.211s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.222s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[20.223s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.234s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[20.249s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.250s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.256s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.259s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.268s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[20.269s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.274s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[20.276s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.279s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[20.285s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.288s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.293s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.294s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.296s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.297s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.298s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[20.299s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[20.300s] -- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[20.329s] Invoked command in '/home/pi/lidar/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial_motor_demo_msgs

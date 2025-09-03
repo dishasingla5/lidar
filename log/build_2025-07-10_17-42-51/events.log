@@ -1,0 +1,679 @@
+[0.000000] (-) TimerEvent: {}
+[0.001799] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002376] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002867] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.003058] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003343] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/pi/lidar/install/serial')])}
+[0.003556] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/pi/lidar/install/serial_motor_demo_msgs')])}
+[0.003686] (serial) JobStarted: {'identifier': 'serial'}
+[0.045765] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.072349] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.097568] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.099612] (-) TimerEvent: {}
+[0.129893] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.134772] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.137516] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/lidar/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/pi/lidar/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[0.150457] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.155621] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.157148] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/lidar/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/lidar/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[0.169495] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.175473] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.182115] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/lidar/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/pi/lidar/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[0.200692] (-) TimerEvent: {}
+[0.209667] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.217701] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.220240] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/lidar/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/pi/lidar/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[0.300891] (-) TimerEvent: {}
+[0.402148] (-) TimerEvent: {}
+[0.433002] (my_bot) CommandEnded: {'returncode': 0}
+[0.457716] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.502418] (-) TimerEvent: {}
+[0.537396] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/lidar/build/my_bot'], 'cwd': '/home/pi/lidar/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[0.586204] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.592530] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config\n'}
+[0.597623] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.601849] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/first.rviz\n'}
+[0.604744] (-) TimerEvent: {}
+[0.607525] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[0.612629] (serial) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[0.615288] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[0.616144] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.616802] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description\n'}
+[0.619901] (my_bot) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.625825] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/gazebo_plugins.xacro\n'}
+[0.627540] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/robot_core2.xacro\n'}
+[0.629176] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.632287] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[0.633272] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.634263] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.656342] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.657134] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] Built target serial_motor_demo_msgs__cpp\n'}
+[0.657840] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch\n'}
+[0.658357] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[0.658771] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/gazebo_sim.launch.py\n'}
+[0.659218] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[0.667389] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[0.668264] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[0.668753] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/gazebo.launch.py\n'}
+[0.669279] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.669709] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/localization_launch.py\n'}
+[0.670107] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/real.launch.py\n'}
+[0.670568] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds\n'}
+[0.671043] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze\n'}
+[0.673817] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/model.sdf\n'}
+[0.683162] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/model.config\n'}
+[0.684095] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/Untitled\n'}
+[0.684531] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/Untitled/model.sdf\n'}
+[0.685055] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/Untitled/model.config\n'}
+[0.685587] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/my_world.world\n'}
+[0.686086] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.686596] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.687120] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.687591] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.687964] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.688293] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.688661] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.689081] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.689591] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.690060] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.690504] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.690986] (my_bot) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/my_bot/share/my_bot/package.dsv\n'}
+[0.705284] (-) TimerEvent: {}
+[0.716800] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.719245] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.723980] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.724790] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/package.xml\n'}
+[0.725428] (my_bot) CommandEnded: {'returncode': 0}
+[0.727171] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[0.777610] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_serial_motor_demo_msgs\n'}
+[0.805660] (-) TimerEvent: {}
+[0.911678] (-) TimerEvent: {}
+[0.925342] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[0.968286] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.975052] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[1.001142] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.011985] (-) TimerEvent: {}
+[1.026949] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[1.032546] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.038843] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[1.042681] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[1.052617] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[1.063932] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.112462] (-) TimerEvent: {}
+[1.117339] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.132107] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[1.132440] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/lidar/build/sllidar_ros2'], 'cwd': '/home/pi/lidar/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.140417] (serial) CommandEnded: {'returncode': 0}
+[1.146257] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[1.154949] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/lidar/build/serial'], 'cwd': '/home/pi/lidar/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.173385] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.176696] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[1.181233] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[1.184823] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[1.187680] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[1.190414] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[1.195191] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[1.199551] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[1.202280] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[1.208987] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[1.211859] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[1.216880] (-) TimerEvent: {}
+[1.220011] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[1.225145] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[1.228535] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[1.232085] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[1.235285] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[1.241057] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[1.248841] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[1.252031] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[1.255272] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[1.257885] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[1.260292] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[1.265272] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[1.268841] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[1.277765] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[1.284360] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[1.290452] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[1.294863] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[1.299357] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.304384] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/lib/libserial.a\n'}
+[1.305683] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/include/serial/serial.h\n'}
+[1.306207] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/include/serial/v8stdint.h\n'}
+[1.306771] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/library_path.sh\n'}
+[1.307393] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/library_path.dsv\n'}
+[1.308170] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[1.308796] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[1.309308] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[1.309776] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[1.310321] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[1.312144] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/path.sh\n'}
+[1.312737] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/path.dsv\n'}
+[1.313420] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[1.314456] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.bash\n'}
+[1.317935] (-) TimerEvent: {}
+[1.320088] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.sh\n'}
+[1.320934] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[1.321548] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.zsh\n'}
+[1.322166] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.dsv\n'}
+[1.322926] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[1.323950] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[1.324848] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[1.325406] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[1.326007] (serial) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/serial/share/serial/package.dsv\n'}
+[1.326629] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[1.327512] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[1.328885] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[1.329894] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.330713] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.331897] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[1.332623] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[1.333527] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial/share/serial/package.xml\n'}
+[1.334316] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[1.335051] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[1.335884] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[1.336584] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[1.337277] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[1.338055] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[1.339051] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.342184] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.343041] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[1.343830] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[1.344561] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[1.346080] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[1.347555] (serial) CommandEnded: {'returncode': 0}
+[1.377337] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[1.385015] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[1.386609] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[1.418063] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.420858] (-) TimerEvent: {}
+[1.502542] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[1.512542] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[1.519927] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[1.521379] (-) TimerEvent: {}
+[1.525204] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[1.526978] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/lidar/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/pi/lidar/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.621776] (-) TimerEvent: {}
+[1.635508] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py\n'}
+[1.721962] (-) TimerEvent: {}
+[1.779162] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.809879] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.822226] (-) TimerEvent: {}
+[1.832801] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[1.849566] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[1.865037] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fake_robot\x1b[0m\n'}
+[1.931590] (-) TimerEvent: {}
+[1.991566] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[1.992291] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[2.032650] (-) TimerEvent: {}
+[2.133393] (-) TimerEvent: {}
+[2.234100] (-) TimerEvent: {}
+[2.334861] (-) TimerEvent: {}
+[2.435615] (-) TimerEvent: {}
+[2.536332] (-) TimerEvent: {}
+[2.637056] (-) TimerEvent: {}
+[2.648483] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.652282] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[2.653655] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[2.655097] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[2.669110] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[2.673111] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[2.737550] (-) TimerEvent: {}
+[2.821886] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[2.837675] (-) TimerEvent: {}
+[2.873149] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[2.883484] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[2.884121] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/lidar/build/serial_motor_demo_msgs'], 'cwd': '/home/pi/lidar/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[2.917431] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.918529] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[2.919938] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[2.923753] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[2.929014] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[2.929570] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[2.930142] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.930663] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[2.931213] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[2.931801] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c\n'}
+[2.932192] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[2.932571] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[2.932876] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.c\n'}
+[2.933265] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[2.933679] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[2.934067] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[2.934596] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[2.935135] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[2.935682] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[2.936117] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c\n'}
+[2.936604] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[2.936951] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[2.937277] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[2.938089] (-) TimerEvent: {}
+[2.938678] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[2.939892] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[2.940533] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[2.941059] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[2.941801] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[2.942667] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[2.943315] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[2.944179] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.947116] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.948665] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[2.949937] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[2.951474] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[2.953299] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c\n'}
+[2.955988] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[2.956478] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[2.956945] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c\n'}
+[2.957400] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c\n'}
+[2.957872] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[2.958321] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.960704] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.964551] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[2.966755] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[2.967937] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[2.969265] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.970608] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[2.971645] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[2.972733] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[2.973883] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[2.975712] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[2.977032] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[2.978086] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[2.979086] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[2.980519] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[2.981640] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[2.982644] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[2.983830] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[2.985217] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[2.986450] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[2.987542] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[2.988650] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[2.989874] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[2.991103] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[2.992481] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.994239] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[2.995673] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.996121] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.998357] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.999037] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/dds_fastrtps\n'}
+[3.003183] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.005623] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs\n'}
+[3.006962] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg\n'}
+[3.008334] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail\n'}
+[3.009954] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.011681] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp\n'}
+[3.013248] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.014480] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp\n'}
+[3.015761] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp\n'}
+[3.017075] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.033569] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.038188] (-) TimerEvent: {}
+[3.091054] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[3.097141] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[3.103857] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[3.106441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info\n'}
+[3.107462] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.108017] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.108597] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.108928] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.109307] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs\n'}
+[3.118373] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.119528] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg\n'}
+[3.128433] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[3.130187] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[3.131337] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[3.132050] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c\n'}
+[3.132593] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c\n'}
+[3.133106] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[3.135862] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c\n'}
+[3.136720] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.137529] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.138209] (-) TimerEvent: {}
+[3.139009] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.139911] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.140585] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py\n'}
+[3.141031] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.141508] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[3.238407] (-) TimerEvent: {}
+[3.310848] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...\n"}
+[3.312655] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...\n"}
+[3.338674] (-) TimerEvent: {}
+[3.340422] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.344306] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.348260] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.353082] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[3.355833] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[3.356772] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[3.357184] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[3.360649] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[3.361331] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[3.361900] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[3.362308] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[3.362694] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[3.363065] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[3.363474] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[3.364384] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[3.364920] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[3.365452] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[3.365978] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[3.366797] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[3.367645] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[3.368201] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[3.368526] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[3.374277] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[3.375008] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.377137] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.377915] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.380194] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.381010] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.383127] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.384049] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.387874] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.389603] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.391238] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.394336] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.396202] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.399900] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.400938] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.404845] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.406424] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.407278] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.408540] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.411945] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.412672] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.413016] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.413328] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.413624] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.413927] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[3.414804] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[3.416188] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[3.425050] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[3.439751] (-) TimerEvent: {}
+[3.526702] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[3.529648] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[3.539970] (-) TimerEvent: {}
+[3.640690] (-) TimerEvent: {}
+[3.741749] (-) TimerEvent: {}
+[3.842628] (-) TimerEvent: {}
+[3.943678] (-) TimerEvent: {}
+[4.044524] (-) TimerEvent: {}
+[4.145304] (-) TimerEvent: {}
+[4.246071] (-) TimerEvent: {}
+[4.346865] (-) TimerEvent: {}
+[4.448097] (-) TimerEvent: {}
+[4.550965] (-) TimerEvent: {}
+[4.652176] (-) TimerEvent: {}
+[4.753098] (-) TimerEvent: {}
+[4.854805] (-) TimerEvent: {}
+[4.956824] (-) TimerEvent: {}
+[5.058989] (-) TimerEvent: {}
+[5.160727] (-) TimerEvent: {}
+[5.262361] (-) TimerEvent: {}
+[5.365301] (-) TimerEvent: {}
+[5.466777] (-) TimerEvent: {}
+[5.568333] (-) TimerEvent: {}
+[5.670251] (-) TimerEvent: {}
+[5.771891] (-) TimerEvent: {}
+[5.873402] (-) TimerEvent: {}
+[5.975203] (-) TimerEvent: {}
+[6.076744] (-) TimerEvent: {}
+[6.180040] (-) TimerEvent: {}
+[6.282048] (-) TimerEvent: {}
+[6.384391] (-) TimerEvent: {}
+[6.486603] (-) TimerEvent: {}
+[6.589153] (-) TimerEvent: {}
+[6.691975] (-) TimerEvent: {}
+[6.794542] (-) TimerEvent: {}
+[6.896799] (-) TimerEvent: {}
+[6.999376] (-) TimerEvent: {}
+[7.102023] (-) TimerEvent: {}
+[7.204471] (-) TimerEvent: {}
+[7.307099] (-) TimerEvent: {}
+[7.410158] (-) TimerEvent: {}
+[7.513872] (-) TimerEvent: {}
+[7.616758] (-) TimerEvent: {}
+[7.720064] (-) TimerEvent: {}
+[7.822328] (-) TimerEvent: {}
+[7.924656] (-) TimerEvent: {}
+[8.026824] (-) TimerEvent: {}
+[8.136255] (-) TimerEvent: {}
+[8.237749] (-) TimerEvent: {}
+[8.339559] (-) TimerEvent: {}
+[8.441623] (-) TimerEvent: {}
+[8.543716] (-) TimerEvent: {}
+[8.646150] (-) TimerEvent: {}
+[8.702912] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/serial_motor_demo', 'build', '--build-base', '/home/pi/lidar/build/serial_motor_demo/build', 'install', '--record', '/home/pi/lidar/build/serial_motor_demo/install.log', '--install-scripts', '$base/lib/serial_motor_demo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pi', 'SSH_CLIENT': '192.168.95.48 42856 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/lidar/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/lidar/build/serial_motor_demo', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.95.48 42856 192.168.95.173 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/lidar/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot'}, 'shell': False}
+[8.746329] (-) TimerEvent: {}
+[8.848405] (-) TimerEvent: {}
+[8.950261] (-) TimerEvent: {}
+[9.052899] (-) TimerEvent: {}
+[9.155098] (-) TimerEvent: {}
+[9.257399] (-) TimerEvent: {}
+[9.360662] (-) TimerEvent: {}
+[9.462778] (-) TimerEvent: {}
+[9.565006] (-) TimerEvent: {}
+[9.667197] (-) TimerEvent: {}
+[9.769436] (-) TimerEvent: {}
+[9.871823] (-) TimerEvent: {}
+[9.974165] (-) TimerEvent: {}
+[10.076725] (-) TimerEvent: {}
+[10.178768] (-) TimerEvent: {}
+[10.280552] (-) TimerEvent: {}
+[10.382697] (-) TimerEvent: {}
+[10.484715] (-) TimerEvent: {}
+[10.587757] (-) TimerEvent: {}
+[10.688653] (-) TimerEvent: {}
+[10.697680] (serial_motor_demo) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[10.701673] (serial_motor_demo) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.755566] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[10.760682] (serial_motor_demo) StdoutLine: {'line': b'writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO\n'}
+[10.764663] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt\n'}
+[10.770425] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt\n'}
+[10.773440] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt\n'}
+[10.776605] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt\n'}
+[10.782549] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[10.788998] (-) TimerEvent: {}
+[10.796194] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[10.799345] (serial_motor_demo) StdoutLine: {'line': b'running build\n'}
+[10.802725] (serial_motor_demo) StdoutLine: {'line': b'running build_py\n'}
+[10.806083] (serial_motor_demo) StdoutLine: {'line': b'running install\n'}
+[10.809056] (serial_motor_demo) StdoutLine: {'line': b'running install_lib\n'}
+[10.814070] (serial_motor_demo) StdoutLine: {'line': b'running install_data\n'}
+[10.817311] (serial_motor_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.826189] (serial_motor_demo) StdoutLine: {'line': b"removing '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.833856] (serial_motor_demo) StdoutLine: {'line': b'Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info\n'}
+[10.844708] (serial_motor_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[10.889208] (-) TimerEvent: {}
+[10.954768] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/pi/lidar/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[10.962084] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/pi/lidar/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[10.967386] (serial_motor_demo) StdoutLine: {'line': b"writing list of installed files to '/home/pi/lidar/build/serial_motor_demo/install.log'\n"}
+[10.989531] (-) TimerEvent: {}
+[11.092830] (-) TimerEvent: {}
+[11.135295] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[11.190543] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[11.193873] (-) TimerEvent: {}
+[11.294863] (-) TimerEvent: {}
+[11.395932] (-) TimerEvent: {}
+[11.496892] (-) TimerEvent: {}
+[11.597880] (-) TimerEvent: {}
+[11.698907] (-) TimerEvent: {}
+[11.799928] (-) TimerEvent: {}
+[11.901218] (-) TimerEvent: {}
+[12.002202] (-) TimerEvent: {}
+[12.103125] (-) TimerEvent: {}
+[12.204122] (-) TimerEvent: {}
+[12.305057] (-) TimerEvent: {}
+[12.406003] (-) TimerEvent: {}
+[12.507043] (-) TimerEvent: {}
+[12.609988] (-) TimerEvent: {}
+[12.715998] (-) TimerEvent: {}
+[12.818430] (-) TimerEvent: {}
+[12.921346] (-) TimerEvent: {}
+[13.025623] (-) TimerEvent: {}
+[13.127944] (-) TimerEvent: {}
+[13.230346] (-) TimerEvent: {}
+[13.333213] (-) TimerEvent: {}
+[13.434727] (-) TimerEvent: {}
+[13.536010] (-) TimerEvent: {}
+[13.637099] (-) TimerEvent: {}
+[13.739538] (-) TimerEvent: {}
+[13.841840] (-) TimerEvent: {}
+[13.944446] (-) TimerEvent: {}
+[14.047449] (-) TimerEvent: {}
+[14.149571] (-) TimerEvent: {}
+[14.251935] (-) TimerEvent: {}
+[14.355004] (-) TimerEvent: {}
+[14.457885] (-) TimerEvent: {}
+[14.560871] (-) TimerEvent: {}
+[14.663222] (-) TimerEvent: {}
+[14.764679] (-) TimerEvent: {}
+[14.865953] (-) TimerEvent: {}
+[14.967444] (-) TimerEvent: {}
+[15.068372] (-) TimerEvent: {}
+[15.169378] (-) TimerEvent: {}
+[15.270654] (-) TimerEvent: {}
+[15.371766] (-) TimerEvent: {}
+[15.472924] (-) TimerEvent: {}
+[15.574010] (-) TimerEvent: {}
+[15.675082] (-) TimerEvent: {}
+[15.776088] (-) TimerEvent: {}
+[15.877011] (-) TimerEvent: {}
+[15.977983] (-) TimerEvent: {}
+[16.080209] (-) TimerEvent: {}
+[16.182464] (-) TimerEvent: {}
+[16.285432] (-) TimerEvent: {}
+[16.386461] (-) TimerEvent: {}
+[16.487519] (-) TimerEvent: {}
+[16.590405] (-) TimerEvent: {}
+[16.691554] (-) TimerEvent: {}
+[16.792632] (-) TimerEvent: {}
+[16.893570] (-) TimerEvent: {}
+[16.994539] (-) TimerEvent: {}
+[17.095532] (-) TimerEvent: {}
+[17.196474] (-) TimerEvent: {}
+[17.297526] (-) TimerEvent: {}
+[17.398608] (-) TimerEvent: {}
+[17.499563] (-) TimerEvent: {}
+[17.600945] (-) TimerEvent: {}
+[17.701951] (-) TimerEvent: {}
+[17.802872] (-) TimerEvent: {}
+[17.903845] (-) TimerEvent: {}
+[18.004997] (-) TimerEvent: {}
+[18.106129] (-) TimerEvent: {}
+[18.207235] (-) TimerEvent: {}
+[18.310435] (-) TimerEvent: {}
+[18.413099] (-) TimerEvent: {}
+[18.516319] (-) TimerEvent: {}
+[18.619653] (-) TimerEvent: {}
+[18.723209] (-) TimerEvent: {}
+[18.826818] (-) TimerEvent: {}
+[18.930356] (-) TimerEvent: {}
+[19.034159] (-) TimerEvent: {}
+[19.141322] (-) TimerEvent: {}
+[19.244607] (-) TimerEvent: {}
+[19.345949] (-) TimerEvent: {}
+[19.447592] (-) TimerEvent: {}
+[19.550527] (-) TimerEvent: {}
+[19.653340] (-) TimerEvent: {}
+[19.756123] (-) TimerEvent: {}
+[19.860328] (-) TimerEvent: {}
+[19.964010] (-) TimerEvent: {}
+[20.066218] (-) TimerEvent: {}
+[20.169289] (-) TimerEvent: {}
+[20.272259] (-) TimerEvent: {}
+[20.375054] (-) TimerEvent: {}
+[20.477844] (-) TimerEvent: {}
+[20.580606] (-) TimerEvent: {}
+[20.681857] (-) TimerEvent: {}
+[20.784601] (-) TimerEvent: {}
+[20.887616] (-) TimerEvent: {}
+[20.990677] (-) TimerEvent: {}
+[21.093957] (-) TimerEvent: {}
+[21.197443] (-) TimerEvent: {}
+[21.301121] (-) TimerEvent: {}
+[21.404846] (-) TimerEvent: {}
+[21.507764] (-) TimerEvent: {}
+[21.610575] (-) TimerEvent: {}
+[21.713431] (-) TimerEvent: {}
+[21.816162] (-) TimerEvent: {}
+[21.919050] (-) TimerEvent: {}
+[22.021790] (-) TimerEvent: {}
+[22.124236] (-) TimerEvent: {}
+[22.226790] (-) TimerEvent: {}
+[22.329048] (-) TimerEvent: {}
+[22.430228] (-) TimerEvent: {}
+[22.531836] (-) TimerEvent: {}
+[22.632725] (-) TimerEvent: {}
+[22.734018] (-) TimerEvent: {}
+[22.835539] (-) TimerEvent: {}
+[22.936629] (-) TimerEvent: {}
+[23.038284] (-) TimerEvent: {}
+[23.140122] (-) TimerEvent: {}
+[23.241568] (-) TimerEvent: {}
+[23.342553] (-) TimerEvent: {}
+[23.443604] (-) TimerEvent: {}
+[23.544634] (-) TimerEvent: {}
+[23.594421] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[23.631074] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[23.644866] (-) TimerEvent: {}
+[23.746133] (-) TimerEvent: {}
+[23.847821] (-) TimerEvent: {}
+[23.949448] (-) TimerEvent: {}
+[24.052059] (-) TimerEvent: {}
+[24.153432] (-) TimerEvent: {}
+[24.254743] (-) TimerEvent: {}
+[24.355613] (-) TimerEvent: {}
+[24.456953] (-) TimerEvent: {}
+[24.559220] (-) TimerEvent: {}
+[24.661213] (-) TimerEvent: {}
+[24.762996] (-) TimerEvent: {}
+[24.864804] (-) TimerEvent: {}
+[24.965875] (-) TimerEvent: {}
+[25.067571] (-) TimerEvent: {}
+[25.168667] (-) TimerEvent: {}
+[25.269643] (-) TimerEvent: {}
+[25.370681] (-) TimerEvent: {}
+[25.442863] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] Built target fake_robot\n'}
+[25.459636] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[25.470867] (-) TimerEvent: {}
+[25.577224] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[25.594724] (-) TimerEvent: {}
+[25.604603] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[25.615175] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/lidar/build/diffdrive_arduino'], 'cwd': '/home/pi/lidar/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.95.48 42856 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/lidar/install/serial_motor_demo_msgs/lib:/home/pi/lidar/install/diffdrive_arduino/lib:/home/pi/lidar/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/lidar/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.95.48 42856 192.168.95.173 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:/home/pi/lidar/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/lidar/install/serial:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/my_bot:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[25.661850] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.666295] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml\n'}
+[25.667144] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml\n'}
+[25.670555] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[25.683858] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/lidar/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[25.686850] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[25.694895] (-) TimerEvent: {}
+[25.695887] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/lidar/install/diffdrive_arduino/lib/libfake_robot.so" to ""\n'}
+[25.696552] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/controllers\n'}
+[25.697468] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[25.698081] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino\n'}
+[25.698605] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[25.699138] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[25.705814] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[25.706787] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[25.710346] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[25.711916] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[25.714605] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[25.715280] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[25.715999] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[25.716667] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[25.717244] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[25.717951] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[25.718624] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[25.719269] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[25.719891] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[25.724156] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[25.725757] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[25.727257] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.728380] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.729394] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[25.730071] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[25.730652] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/pi/lidar/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[25.741223] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[25.795202] (-) TimerEvent: {}
+[25.890961] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[25.900117] (-) TimerEvent: {}
+[25.900577] (-) EventReactorShutdown: {}

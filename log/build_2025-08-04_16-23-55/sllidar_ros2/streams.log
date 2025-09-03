@@ -1,0 +1,54 @@
+[0.204s] Invoking command in '/home/pi/lidar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/sllidar_ros2 -- -j4 -l4
+[1.756s] [ 10%] Built target sllidar_client
+[1.844s] [100%] Built target sllidar_node
+[2.127s] Invoked command in '/home/pi/lidar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/sllidar_ros2 -- -j4 -l4
+[2.130s] Invoking command in '/home/pi/lidar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/sllidar_ros2
+[2.198s] -- Install configuration: ""
+[2.200s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch
+[2.202s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[2.204s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[2.206s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[2.221s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[2.222s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[2.223s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[2.223s] -- Installing: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/rplidar_s2_launch.py
+[2.224s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[2.224s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[2.225s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[2.241s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[2.241s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[2.242s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[2.243s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[2.243s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[2.244s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[2.245s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[2.262s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[2.264s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[2.265s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[2.279s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[2.279s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[2.280s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[2.289s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[2.289s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[2.290s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/rviz
+[2.291s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[2.294s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[2.295s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[2.295s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[2.296s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[2.297s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[2.298s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[2.310s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[2.311s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[2.314s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[2.315s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[2.315s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[2.316s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[2.316s] -- Installing: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.317s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.318s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.319s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.320s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.320s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.321s] -- Up-to-date: /home/pi/lidar/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.322s] Invoked command in '/home/pi/lidar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/sllidar_ros2

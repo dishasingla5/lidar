@@ -1,0 +1,43 @@
+[10.666s] Invoking command in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot PYTHONPATH=/home/pi/lidar/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/pi/lidar/build/serial_motor_demo/build install --record /home/pi/lidar/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[36.658s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[36.659s]   warnings.warn(
+[36.721s] running egg_info
+[36.724s] creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info
+[36.725s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[36.728s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[36.730s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[36.732s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[36.733s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[36.736s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[36.750s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[36.761s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[36.763s] running build
+[36.764s] running build_py
+[36.765s] creating /home/pi/lidar/build/serial_motor_demo/build
+[36.765s] creating /home/pi/lidar/build/serial_motor_demo/build/lib
+[36.766s] creating /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo
+[36.767s] copying serial_motor_demo/gui.py -> /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo
+[36.770s] copying serial_motor_demo/__init__.py -> /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo
+[36.772s] copying serial_motor_demo/driver.py -> /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo
+[36.775s] running install
+[36.777s] running install_lib
+[36.785s] creating /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[36.790s] copying /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[36.791s] copying /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[36.791s] copying /home/pi/lidar/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[36.794s] byte-compiling /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[36.808s] byte-compiling /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[36.809s] byte-compiling /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[36.813s] running install_data
+[36.814s] creating /home/pi/lidar/install/serial_motor_demo/share/ament_index
+[36.815s] creating /home/pi/lidar/install/serial_motor_demo/share/ament_index/resource_index
+[36.817s] creating /home/pi/lidar/install/serial_motor_demo/share/ament_index/resource_index/packages
+[36.817s] copying resource/serial_motor_demo -> /home/pi/lidar/install/serial_motor_demo/share/ament_index/resource_index/packages
+[36.818s] copying package.xml -> /home/pi/lidar/install/serial_motor_demo/share/serial_motor_demo
+[36.818s] running install_egg_info
+[36.834s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[36.841s] running install_scripts
+[37.059s] Installing driver script to /home/pi/lidar/install/serial_motor_demo/lib/serial_motor_demo
+[37.061s] Installing gui script to /home/pi/lidar/install/serial_motor_demo/lib/serial_motor_demo
+[37.063s] writing list of installed files to '/home/pi/lidar/build/serial_motor_demo/install.log'
+[37.264s] Invoked command in '/home/pi/lidar/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/pi/lidar/install/serial_motor_demo_msgs:/home/pi/lidar/install/sllidar_ros2:/home/pi/lidar/install/diffdrive_arduino:/home/pi/lidar/install/serial:/home/pi/lidar/install/my_bot PYTHONPATH=/home/pi/lidar/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/lidar/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/pi/lidar/build/serial_motor_demo/build install --record /home/pi/lidar/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+/home/pi/lidar/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl
+/home/pi/lidar/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl
+/home/pi/lidar/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl

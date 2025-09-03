@@ -1,0 +1,8 @@
+{
+  "package_name": "serial_motor_demo_msgs",
+  "non_idl_tuples": [
+    "/home/pi/lidar/src/serial_motor_demo/serial_motor_demo_msgs:msg/MotorCommand.msg",
+    "/home/pi/lidar/src/serial_motor_demo/serial_motor_demo_msgs:msg/MotorVels.msg",
+    "/home/pi/lidar/src/serial_motor_demo/serial_motor_demo_msgs:msg/EncoderVals.msg"
+  ]
+}

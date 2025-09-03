@@ -1,0 +1,52 @@
+[0.334s] Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/my_bot -- -j4 -l4
+[1.890s] Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/my_bot -- -j4 -l4
+[2.032s] Invoking command in '/home/pi/lidar/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/my_bot
+[2.115s] -- Install configuration: ""
+[2.128s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config
+[2.136s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/my_controllers.yaml
+[2.137s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/first.rviz
+[2.138s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/nav2_params.yaml
+[2.139s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[2.139s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/config/empty.yaml
+[2.140s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description
+[2.144s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/ros2_control.xacro
+[2.145s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/gazebo_plugins.xacro
+[2.146s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/robot_core2.xacro
+[2.147s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/lidar.xacro
+[2.147s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/camera.xacro
+[2.148s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[2.149s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/description/robot_core.xacro
+[2.150s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch
+[2.158s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[2.160s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/gazebo_sim.launch.py
+[2.165s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/navigation_launch.py
+[2.167s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/online_async_launch.py
+[2.168s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/gazebo.launch.py
+[2.181s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/rsp.launch.py
+[2.190s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/localization_launch.py
+[2.192s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/launch/real.launch.py
+[2.194s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds
+[2.195s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze
+[2.196s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/model.sdf
+[2.216s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/model.config
+[2.234s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/Untitled
+[2.235s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/Untitled/model.sdf
+[2.237s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/maze/Untitled/model.config
+[2.238s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/my_world.world
+[2.239s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/worlds/empty.world
+[2.240s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[2.241s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[2.242s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[2.243s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[2.252s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/path.sh
+[2.254s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/environment/path.dsv
+[2.254s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.bash
+[2.255s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.sh
+[2.256s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.zsh
+[2.258s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/local_setup.dsv
+[2.260s] -- Installing: /home/pi/lidar/install/my_bot/share/my_bot/package.dsv
+[2.261s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[2.261s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[2.262s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[2.262s] -- Up-to-date: /home/pi/lidar/install/my_bot/share/my_bot/package.xml
+[2.264s] Invoked command in '/home/pi/lidar/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/my_bot

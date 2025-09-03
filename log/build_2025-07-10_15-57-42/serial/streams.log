@@ -1,0 +1,79 @@
+[0.107s] Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/pi/lidar/src/serial -DCMAKE_INSTALL_PREFIX=/home/pi/lidar/install/serial
+[1.554s] -- The C compiler identification is GNU 11.4.0
+[2.330s] -- The CXX compiler identification is GNU 11.4.0
+[2.366s] -- Detecting C compiler ABI info
+[2.829s] -- Detecting C compiler ABI info - done
+[2.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.865s] -- Detecting C compile features
+[2.867s] -- Detecting C compile features - done
+[2.881s] -- Detecting CXX compiler ABI info
+[3.414s] -- Detecting CXX compiler ABI info - done
+[3.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.449s] -- Detecting CXX compile features
+[3.451s] -- Detecting CXX compile features - done
+[3.490s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.699s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.563s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.670s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[5.742s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.759s] -- Looking for pthread.h
+[6.212s] -- Looking for pthread.h - found
+[6.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.641s] -- Found Threads: TRUE  
+[7.049s] -- Configuring done
+[7.123s] -- Generating done
+[7.148s] -- Build files have been written to: /home/pi/lidar/build/serial
+[7.172s] Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/pi/lidar/src/serial -DCMAKE_INSTALL_PREFIX=/home/pi/lidar/install/serial
+[7.180s] Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial -- -j4 -l4
+[7.431s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[7.441s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[7.451s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.473s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.266s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[29.594s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[30.368s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[30.549s] [ 50%] Built target serial
+[31.000s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[31.071s] [ 57%] Built target gtest_main
+[36.509s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[37.475s] [ 64%] Built target serial_example
+[72.787s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[73.364s] [ 71%] Built target gtest
+[73.546s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[84.183s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[84.187s]                  from [01m[K/home/pi/lidar/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[84.189s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[84.191s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[84.192s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[93.602s] [ 85%] [32m[1mLinking CXX executable serial-test[0m
+[94.730s] [ 85%] Built target serial-test
+[94.874s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[102.263s] [100%] [32m[1mLinking CXX executable serial-test-timer[0m
+[103.117s] [100%] Built target serial-test-timer
+[103.250s] Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial -- -j4 -l4
+[103.303s] Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial
+[103.370s] -- Install configuration: ""
+[103.380s] -- Installing: /home/pi/lidar/install/serial/lib/libserial.a
+[103.438s] -- Installing: /home/pi/lidar/install/serial/include/serial/serial.h
+[103.448s] -- Installing: /home/pi/lidar/install/serial/include/serial/v8stdint.h
+[103.471s] -- Installing: /home/pi/lidar/install/serial/share/serial/environment/library_path.sh
+[103.480s] -- Installing: /home/pi/lidar/install/serial/share/serial/environment/library_path.dsv
+[103.505s] -- Installing: /home/pi/lidar/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[103.518s] -- Installing: /home/pi/lidar/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[103.530s] -- Installing: /home/pi/lidar/install/serial/share/serial/environment/ament_prefix_path.sh
+[103.541s] -- Installing: /home/pi/lidar/install/serial/share/serial/environment/ament_prefix_path.dsv
+[103.564s] -- Installing: /home/pi/lidar/install/serial/share/serial/environment/path.sh
+[103.578s] -- Installing: /home/pi/lidar/install/serial/share/serial/environment/path.dsv
+[103.592s] -- Installing: /home/pi/lidar/install/serial/share/serial/local_setup.bash
+[103.606s] -- Installing: /home/pi/lidar/install/serial/share/serial/local_setup.sh
+[103.613s] -- Installing: /home/pi/lidar/install/serial/share/serial/local_setup.zsh
+[103.621s] -- Installing: /home/pi/lidar/install/serial/share/serial/local_setup.dsv
+[103.628s] -- Installing: /home/pi/lidar/install/serial/share/serial/package.dsv
+[103.642s] -- Installing: /home/pi/lidar/install/serial/share/ament_index/resource_index/packages/serial
+[103.646s] -- Installing: /home/pi/lidar/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.661s] -- Installing: /home/pi/lidar/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[103.678s] -- Installing: /home/pi/lidar/install/serial/share/serial/cmake/serialConfig.cmake
+[103.686s] -- Installing: /home/pi/lidar/install/serial/share/serial/cmake/serialConfig-version.cmake
+[103.699s] -- Installing: /home/pi/lidar/install/serial/share/serial/package.xml
+[103.744s] Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial

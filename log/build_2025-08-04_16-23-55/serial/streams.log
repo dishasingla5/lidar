@@ -1,0 +1,33 @@
+[0.160s] Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial -- -j4 -l4
+[0.827s] [ 28%] Built target serial
+[0.890s] [ 42%] Built target gtest_main
+[0.972s] [ 57%] Built target gtest
+[1.370s] [ 71%] Built target serial_example
+[1.598s] [ 85%] Built target serial-test-timer
+[1.637s] [100%] Built target serial-test
+[1.874s] Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/pi/lidar/build/serial -- -j4 -l4
+[1.905s] Invoking command in '/home/pi/lidar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial
+[1.982s] -- Install configuration: ""
+[1.989s] -- Up-to-date: /home/pi/lidar/install/serial/lib/libserial.a
+[1.992s] -- Up-to-date: /home/pi/lidar/install/serial/include/serial/serial.h
+[2.004s] -- Up-to-date: /home/pi/lidar/install/serial/include/serial/v8stdint.h
+[2.005s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/library_path.sh
+[2.006s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/library_path.dsv
+[2.007s] -- Up-to-date: /home/pi/lidar/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.010s] -- Up-to-date: /home/pi/lidar/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.015s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.016s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.017s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/path.sh
+[2.017s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/environment/path.dsv
+[2.019s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.bash
+[2.020s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.sh
+[2.021s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.zsh
+[2.023s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/local_setup.dsv
+[2.024s] -- Installing: /home/pi/lidar/install/serial/share/serial/package.dsv
+[2.025s] -- Up-to-date: /home/pi/lidar/install/serial/share/ament_index/resource_index/packages/serial
+[2.029s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.030s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.031s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/serialConfig.cmake
+[2.039s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.039s] -- Up-to-date: /home/pi/lidar/install/serial/share/serial/package.xml
+[2.041s] Invoked command in '/home/pi/lidar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/lidar/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/pi/lidar/build/serial

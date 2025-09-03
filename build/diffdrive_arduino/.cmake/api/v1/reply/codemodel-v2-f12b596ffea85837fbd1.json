@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-34d3555d97abf82edd94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "diffdrive_arduino",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "diffdrive_arduino::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diffdrive_arduino-47081e1edcd007765338.json",
+					"name" : "diffdrive_arduino",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diffdrive_arduino_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diffdrive_arduino_uninstall-c9538f098749c1291461.json",
+					"name" : "diffdrive_arduino_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_robot-3cbc352ecb39d0193662.json",
+					"name" : "fake_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a6e36581ee1b1957e1e9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/lidar/build/diffdrive_arduino",
+		"source" : "/home/pi/lidar/src/diffdrive_arduino"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

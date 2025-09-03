@@ -1,0 +1,11 @@
+/home/pi/lidar/build/web_video_server/CMakeFiles/uninstall.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/web_video_server_uninstall.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/web_video_server.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/web_video_server_node.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/test.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/edit_cache.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/rebuild_cache.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/list_install_components.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/install.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/install/local.dir
+/home/pi/lidar/build/web_video_server/CMakeFiles/install/strip.dir

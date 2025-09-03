@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/web_video_server.dir/build.make:76: CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/web_video_server.dir/build.make:90: CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/web_video_server.dir/build.make:104: CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/web_video_server.dir/build.make:118: CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/web_video_server.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
