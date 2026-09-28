@@ -3,8 +3,6 @@
 import cv2
 import requests
 import base64
-import json
-import numpy as np
 from bs4 import BeautifulSoup
 from pyzbar.pyzbar import decode
 
